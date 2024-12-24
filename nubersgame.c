@@ -30,7 +30,7 @@ int main() {
         } else if (guess < secret) {
             printf("Daha büyük bir sayı girin: ");
         } else {
-            printf("Tebrikler! Doğru tahmin.\n");
+            printf("Tebrikler Başardın! Doğru tahmin.\n");
         }
     } while (guess != secret);
 
